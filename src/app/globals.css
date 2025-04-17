@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+body {
+  margin: 0;
+  overflow-x: hidden; /* Prevents scrollbars when using full-screen WebGL */
+  background-color: black; /* Fallback color */
+}
+
